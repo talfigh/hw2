@@ -1,0 +1,94 @@
+.side-nav li>a {
+    padding-left: 8px;
+    height: 36px;
+}
+
+.side-nav li {
+    height: 56px;
+    padding-left: 16px;
+    width: 256 !important;
+
+}
+
+li {
+    border-width: 1px; 
+    border-color: darkgrey;
+}
+
+.side-nav is {
+    padding-left: 24px;
+    height: 24px;
+}
+
+.side-nav li>a>i {
+    margin-right: 16px !important;
+}
+.sss {
+    color: rgba(0,0,0,0.54) !important;
+
+}
+
+.c5e-nav-heading {
+    padding: 8px 24px 0 24px;
+    height: 40px;
+    user-select: none;
+    font-size: 12px;
+    color: rgba(0,0,0,0.54);
+}
+
+.it {
+    height: 36px !important;
+    width: 256px;
+}
+
+.side-nav li>a>i {
+    height: 24px !important;
+}
+
+.arrow {
+	width: 256px ;
+	height: 44px !important;
+	top: calc(100%  - 44px) !important;
+	z-index: 888 !important;
+	background-color: #f5f5f5!important;
+	border-top-style: solid!important;;
+	border-top-color: rgba(0, 0, 0, 0.1)!important;;
+    border-top-width: 1px!important;; 
+    float: right;
+}
+
+
+#upgrade {
+    border-right: 1px;
+    border-color: rgb(220, 220, 220); 
+	background-color: white;
+	height: 60px;
+	position: fixed;
+    padding: 12px 24px;
+	border-right-style: solid;
+	box-shadow: #039be5;
+    border-bottom: 1px;
+    width: 256px !important;
+	top: calc(100%  - 104px) ;
+	z-index: 888 !important;
+	border-bottom-style: solid;
+	border-top-style: solid;
+	border-top: 1px;	
+}
+
+.divider {
+    height: 1px !important;
+}
+@media only screen and (max-width: 992px) {
+    #side-navbar {
+        height: calc(100% - 48px) !important;
+    }
+}
+@media only screen and (max-width: 620px) {
+    .row .col {
+        width: 100% !important;
+    }
+    .card {
+        width: 100% !important;
+    }
+}
