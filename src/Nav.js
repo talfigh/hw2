@@ -6,7 +6,7 @@ class Nav extends Component {
     render() {
         return (
             renderHTML(`<div class="nav-wrapper">
-			<ul class="side-nav fixed" id="side-navbar" style="height: calc(100% - 48px - 104px);width: 256px;">
+			<ul class="side-nav fixed" id="side-navbar" style="height: calc(100% - 48px - 56px);width: 256px;">
 				<li class="nav-item .it" id="first" style="background-color: rgb(250, 250, 250);border-bottom-style: solid; border-width: 1px ; width: 250px;">
 						<a style="display: inline-block;width: 187px; color: #039be5;border-right: 1px;border-right-style: solid; border-color: rgba(0,0,0,0.54) " href="#" class="side">
 							<span>

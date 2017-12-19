@@ -42,7 +42,7 @@ nav.navbar {
 }
 
 .side-nav {
-	width: 256px;
+	width: 256px !important;
 	top: 48px ;
 	z-index: 888 !important;
 }
